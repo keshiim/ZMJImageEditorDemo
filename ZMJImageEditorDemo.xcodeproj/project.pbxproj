@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B0E1569571E7082D4DA6874 /* Pods_ZMJImageEditorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC38D59A0EB381FC9D68C96 /* Pods_ZMJImageEditorDemo.framework */; };
 		96DD6F3D1EC427B500E0097A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD6F3C1EC427B500E0097A /* main.m */; };
 		96DD6F401EC427B500E0097A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD6F3F1EC427B500E0097A /* AppDelegate.m */; };
 		96DD6F431EC427B500E0097A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD6F421EC427B500E0097A /* ViewController.m */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8DC38D59A0EB381FC9D68C96 /* Pods_ZMJImageEditorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMJImageEditorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DD6F381EC427B500E0097A /* ZMJImageEditorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMJImageEditorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DD6F3C1EC427B500E0097A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96DD6F3E1EC427B500E0097A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		96DD6F471EC427B500E0097A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96DD6F4A1EC427B500E0097A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96DD6F4C1EC427B500E0097A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB24E40F9E5C03ACB886C418 /* Pods-ZMJImageEditorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMJImageEditorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZMJImageEditorDemo/Pods-ZMJImageEditorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C2D99F2F45D2D8F10AEE52DF /* Pods-ZMJImageEditorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMJImageEditorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZMJImageEditorDemo/Pods-ZMJImageEditorDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B0E1569571E7082D4DA6874 /* Pods_ZMJImageEditorDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F6D98E7607FD51B2B15A521 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2D99F2F45D2D8F10AEE52DF /* Pods-ZMJImageEditorDemo.debug.xcconfig */,
+				BB24E40F9E5C03ACB886C418 /* Pods-ZMJImageEditorDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3A7A8C83F4A37F8FB092C0D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DC38D59A0EB381FC9D68C96 /* Pods_ZMJImageEditorDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		96DD6F2F1EC427B500E0097A = {
 			isa = PBXGroup;
 			children = (
 				96DD6F3A1EC427B500E0097A /* ZMJImageEditorDemo */,
 				96DD6F391EC427B500E0097A /* Products */,
+				0F6D98E7607FD51B2B15A521 /* Pods */,
+				3A7A8C83F4A37F8FB092C0D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96DD6F4F1EC427B500E0097A /* Build configuration list for PBXNativeTarget "ZMJImageEditorDemo" */;
 			buildPhases = (
+				81F529AC21F31C7B482BCBEF /* [CP] Check Pods Manifest.lock */,
 				96DD6F341EC427B500E0097A /* Sources */,
 				96DD6F351EC427B500E0097A /* Frameworks */,
 				96DD6F361EC427B500E0097A /* Resources */,
+				FC0643EE3C727AF4292BCEB6 /* [CP] Embed Pods Frameworks */,
+				6471FD2757F06EF956CCB2D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +172,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6471FD2757F06EF956CCB2D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZMJImageEditorDemo/Pods-ZMJImageEditorDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81F529AC21F31C7B482BCBEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC0643EE3C727AF4292BCEB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZMJImageEditorDemo/Pods-ZMJImageEditorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96DD6F341EC427B500E0097A /* Sources */ = {
@@ -273,6 +348,7 @@
 		};
 		96DD6F501EC427B500E0097A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D99F2F45D2D8F10AEE52DF /* Pods-ZMJImageEditorDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E42H8LHVKT;
@@ -285,6 +361,7 @@
 		};
 		96DD6F511EC427B500E0097A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB24E40F9E5C03ACB886C418 /* Pods-ZMJImageEditorDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E42H8LHVKT;

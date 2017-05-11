@@ -1,0 +1,17 @@
+PODS:
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+  - ZMJImageEditor (0.1.1):
+    - YYCategories (~> 1.0.4)
+
+DEPENDENCIES:
+  - ZMJImageEditor (~> 0.1.1)
+
+SPEC CHECKSUMS:
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  ZMJImageEditor: 57b43e2e7b39cea18c3475c9e8ba86ba5ee351a6
+
+PODFILE CHECKSUM: 1a92d612f8cab2da228240da8a8c37d6081b1594
+
+COCOAPODS: 1.2.1
