@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ZMJImageEditorDemo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -21,22 +26,6 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>25A97566A480738746E7D2928F430B04</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4BC318635F77C01B871E677955A41D7E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9108A9659E910C2E1C146054D3926BE7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

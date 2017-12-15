@@ -10,17 +10,20 @@
 
 1. draw功能
 
-![draw](https://github.com/keshiim/ZMJImageEditor/blob/master/screenShot/draw.gif)
+![draw](https://github.com/keshiim/Swift_learn_CoreGraphics/blob/master/screenshot/draw.gif)
 
 
 2. text
 
-![text](https://github.com/keshiim/ZMJImageEditor/blob/master/screenShot/text.gif)
-![text2](https://github.com/keshiim/ZMJImageEditor/blob/master/screenShot/text2.gif)
+![text](https://github.com/keshiim/Swift_learn_CoreGraphics/blob/master/screenshot/text.gif)
+![text2](https://github.com/keshiim/Swift_learn_CoreGraphics/blob/master/screenshot/text2.gif)
 
 3. clip，rotation
 
-![clip,rotation](https://github.com/keshiim/ZMJImageEditor/blob/master/screenShot/clip.gif)
+![clip,rotation](https://github.com/keshiim/Swift_learn_CoreGraphics/blob/master/screenshot/clip.gif)
+
+4. 支持贴图(paper) 新增
+
 ## Usage
 
 调起
@@ -43,11 +46,26 @@ self.imageView.image = image;
 }
 ```
 
+增加了图片资源回调
+
+``` Objective-c
+#pragma mark - WBGImageEditorDataSource
+- (NSArray<WBGMoreKeyboardItem *> *)imageItemsEditor:(WBGImageEditor *)editor {
+    return @[
+             [WBGMoreKeyboardItem createByTitle:@"p1" imagePath:@"p1" image:[UIImage imageNamed:@"p1"]],
+             [WBGMoreKeyboardItem createByTitle:@"p2" imagePath:@"p2" image:[UIImage imageNamed:@"p2"]]
+             ];
+}
+```
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+and this is the [demo](https://github.com/keshiim/ZMJImageEditorDemo) project
+
 ## Requirements
+
+iOS7+
 
 ## Installation
 
@@ -65,3 +83,5 @@ keshiim, keshiim@163.com
 ## License
 
 ZMJImageEditor is available under the MIT license. See the LICENSE file for more info.
+
+

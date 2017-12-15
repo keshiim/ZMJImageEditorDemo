@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import <ZMJImageEditor/WBGImageEditor.h>
-@interface ViewController () <WBGImageEditorDelegate>
+@interface ViewController () <WBGImageEditorDelegate, WBGImageEditorDataSource>
 @property (nonatomic, strong) UIImageView *imageView;
 @end
 
@@ -34,7 +34,7 @@
     
     UITouch *touch = [touches anyObject];
     if (touch.tapCount == 1) {
-        WBGImageEditor *editor = [[WBGImageEditor alloc] initWithImage:_imageView.image delegate:self];
+        WBGImageEditor *editor = [[WBGImageEditor alloc] initWithImage:_imageView.image delegate:self dataSource:self];
         [self presentViewController:editor animated:YES completion:nil];
     }
 }
@@ -47,6 +47,11 @@
 
 - (void)imageEditorDidCancel:(WBGImageEditor *)editor {
     
+}
+
+#pragma mark - WBGImageEditorDataSource
+- (NSArray<WBGMoreKeyboardItem *> *)imageItemsEditor:(WBGImageEditor *)editor {
+    return nil;
 }
 
 - (void)didReceiveMemoryWarning {

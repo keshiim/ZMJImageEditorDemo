@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9108A9659E910C2E1C146054D3926BE7'
+               BlueprintIdentifier = 'FF56891C86AE74627054E2743F9D972F'
                BlueprintName = 'ZMJImageEditor'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ZMJImageEditor.framework'>
