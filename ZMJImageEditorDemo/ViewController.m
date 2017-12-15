@@ -22,8 +22,17 @@
     self.imageView = ({
         UIImage *image = [UIImage imageNamed:@"bg" inBundle:[NSBundle bundleForClass:[WBGImageEditor class]] compatibleWithTraitCollection:nil];
         UIImageView *__imageView = [[UIImageView alloc] initWithImage:image];
-        __imageView.bounds = self.view.bounds;
+        __imageView.frame = self.view.bounds;
         [self.view addSubview:__imageView];
+        
+        UILabel *label = [UILabel new];
+        label.textColor = [UIColor redColor];
+        label.font = [UIFont boldSystemFontOfSize:14.f];
+        label.text = @"Tap me :)";
+        [label sizeToFit];
+        label.center = CGPointMake((NSInteger)self.view.bounds.size.width >> 1, (NSInteger)self.view.bounds.size.height >> 1);
+        [self.view addSubview:label];
+        
         __imageView;
     });
     
