@@ -63,6 +63,19 @@
     return nil;
 }
 
+- (WBGImageEditorComponent)imageEditorCompoment {
+    return WBGImageEditorWholeComponent;
+}
+
+- (NSNumber *)imageEditorDrawPathWidth {
+    return @(5.f);
+}
+
+- (UIColor *)imageEditorDefaultColor {
+    return UIColor.redColor;
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
