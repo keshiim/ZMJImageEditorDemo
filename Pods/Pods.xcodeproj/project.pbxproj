@@ -10,6 +10,7 @@
 		001D09B9481B8F457DAA40907288A377 /* NSData+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 567DE06F53E99B2C2992F756AC675030 /* NSData+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		012A12B170D148067629438DE174564B /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F91AA0A59763D0755EF8BA93952D70 /* UIView+YYAdd.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0192F6C257532571397302894FD4992A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F6DCF1FE736DD43BC7B868B0655E0 /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		034E96ED7C0D311A6DA9509DFDDC19F2 /* WBGImageEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F394B9BA11C9EE9BD50538A342BDB5F2 /* WBGImageEditorViewController.xib */; };
 		0413208A707F6770F23A42B3001E9B5E /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2751D57702CD81D5B71D6691E4740 /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		047BD48DE66931394A7C768E56F4228F /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC19A4E9909D10F6B9753272202BCE9 /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = F34336427453A9ADD423795CEFA1DCF9 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,6 +41,7 @@
 		2047F99FD893E0A2C2E367D01A02F686 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3250E9BABF184CDDB033500210B45E0A /* CoreFoundation.framework */; };
 		2119474775C3F9D24AF6D61387DE7352 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B8579018A5A5F80BFF1BFE38B84888 /* QuartzCore.framework */; };
 		235D68907B49353FDFBB70BDB2E35B9C /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 193584BD2480657DF30774E5897F9E67 /* TOCropViewControllerLocalizable.strings */; };
+		2432E9D75F594327C534CFB7F90E8482 /* EditImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3E693DFA1AF18B239C7F6917AB890D /* EditImage.xcassets */; };
 		24C1099F85579F6999D4DB128946048C /* UIColor+TLChat.h in Headers */ = {isa = PBXBuildFile; fileRef = 424EBF3FC8F7AB61B9700B556C74DA3F /* UIColor+TLChat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24D74A3A57CA1ABDD834757E7B2DF9C0 /* UIImage+library.h in Headers */ = {isa = PBXBuildFile; fileRef = D77E31EFF6DEE15D57C94BE09D561442 /* UIImage+library.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25647C02FC831A688396E01F3CD74AC1 /* ColorfullButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 71497D69536FA1BF8A8D9ACAEF5568C8 /* ColorfullButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -79,7 +81,6 @@
 		5EC88D1D8CF383ED5659A17FBB101D4E /* YYCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 227872259F21C26B54A830FF2330E62B /* YYCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60635349E1797676CCA1165045198BD1 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D716F0CF66EFCA3C1F1406DFBB361454 /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		61BB27DCF4AEFE1B6668E05F1F15FAD4 /* UIColor+TLChat.m in Sources */ = {isa = PBXBuildFile; fileRef = CABC6AC3B00337C682B0BA227F755AC9 /* UIColor+TLChat.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		62EF647BF33AD13AA5B5F9383385F06A /* WBGImageEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C479CD5E17F0615D0EF9FFFCF4092241 /* WBGImageEditorViewController.xib */; };
 		636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 082542027141F7BBDD8E1F7FA98E4051 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64847E2A7D6D75A17FBB6163C862DD91 /* WBGBaseKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA9F3E0689331500865E53CCE5B938 /* WBGBaseKeyboard.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		64CFE3F8C90AD1AE1AD82FDECEE92FD0 /* TOCropViewController-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AB27AA363CAA251E36DFDFE4B0CEA7 /* TOCropViewController-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -167,7 +168,6 @@
 		D5B0E9B3B26666FA3ECD06782D858BD3 /* NSDictionary+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BC061C0646016B010411A8A9EA3A9E /* NSDictionary+YYAdd.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D803BC1DF0DC8EC99FFAD618278B123B /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = E029E9A4616CD8617E7C4E05DD210F08 /* TOCropViewControllerLocalizable.strings */; };
 		D84A03B793BAC2C0ED3836348295D48B /* NSArray+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 744E17D68E896838E55E76C307BB61B7 /* NSArray+YYAdd.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D88193B5544AB53BFD9D32319253D1AA /* EditImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F37BCA1207DBC117AC3986E8AE2CE60D /* EditImage.xcassets */; };
 		D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 332B1B86380887F61A178B9BF6D172C0 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D90B6A015FCEFFC252FDDBDAB18F19E1 /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BB9A279329E03CC4D4345424FBA90B /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9B7D947B8AF60774380644B1CF4C6A6 /* NSNumber+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = ED93413A2F234730ED6AAD1678B6E9F8 /* NSNumber+YYAdd.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -239,6 +239,7 @@
 		0612010AC6BAF663CF357F3E09F3A93D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		077D2CEACEE21525AFEA6378F9C15E63 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		082542027141F7BBDD8E1F7FA98E4051 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		085F91AD52AB8009CAC71A31CB0883B0 /* WBGImageEditorViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WBGImageEditorViewController.xib; path = Base.lproj/WBGImageEditorViewController.xib; sourceTree = "<group>"; };
 		0904348E19B788B5FCDFA72557280451 /* NSObject+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYAdd.m"; path = "YYCategories/Foundation/NSObject+YYAdd.m"; sourceTree = "<group>"; };
 		09F2751D57702CD81D5B71D6691E4740 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		0A372D04810F76AE717636BC942249AB /* UITextField+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+YYAdd.m"; path = "YYCategories/UIKit/UITextField+YYAdd.m"; sourceTree = "<group>"; };
@@ -304,6 +305,7 @@
 		492971FA15084B1647946BB64293A4B8 /* UIDevice+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+YYAdd.m"; path = "YYCategories/UIKit/UIDevice+YYAdd.m"; sourceTree = "<group>"; };
 		4A287D8484C9B5A75B88C6C27E85AE5B /* YYCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCategories-dummy.m"; sourceTree = "<group>"; };
 		4AB9ACC9A0AADE0EB3CB6BA48E870D01 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		4BC9AC9A8E090D19BEF4EE567D018FDA /* WBGImageEditorViewController.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = WBGImageEditorViewController.strings; path = en.lproj/WBGImageEditorViewController.strings; sourceTree = "<group>"; };
 		4F533ADDDD662FE8FB03BEE342425D47 /* YYCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCategories.xcconfig; sourceTree = "<group>"; };
 		521E189BA408C25717D21B97084101BD /* WBGImageEditorGestureManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBGImageEditorGestureManager.h; path = ZMJImageEditor/Classes/WBGImageEditorGestureManager.h; sourceTree = "<group>"; };
 		55F9DF05EEAF1856B45FFD2D9074AC23 /* UIGestureRecognizer+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+YYAdd.h"; path = "YYCategories/UIKit/UIGestureRecognizer+YYAdd.h"; sourceTree = "<group>"; };
@@ -325,6 +327,7 @@
 		68CE916C687F4EC5AA3AF33011EA3A70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A7D9D60762477DB38568B149F08C4D7 /* UIScreen+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+YYAdd.h"; path = "YYCategories/UIKit/UIScreen+YYAdd.h"; sourceTree = "<group>"; };
 		6AEDF7AB6C75F7FB8C531AF65A2F7A27 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B3E693DFA1AF18B239C7F6917AB890D /* EditImage.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = EditImage.xcassets; path = ZMJImageEditor/Assets/EditImage.xcassets; sourceTree = "<group>"; };
 		6D8CC7EDC71289374262AF29CD0078A3 /* UIFont+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+YYAdd.h"; path = "YYCategories/UIKit/UIFont+YYAdd.h"; sourceTree = "<group>"; };
 		6E28263982A0C99E3A87ED158D71AB59 /* NSKeyedUnarchiver+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSKeyedUnarchiver+YYAdd.m"; path = "YYCategories/Foundation/NSKeyedUnarchiver+YYAdd.m"; sourceTree = "<group>"; };
 		6F05B5A30148DC6257912FC06B8418F2 /* WBGMoreKeyboardItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBGMoreKeyboardItem.h; path = ZMJImageEditor/Classes/WBGMoreKeyboardItem.h; sourceTree = "<group>"; };
@@ -370,6 +373,7 @@
 		9F23F3120FEB3258BB52867605271E0E /* NSNotificationCenter+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+YYAdd.h"; path = "YYCategories/Foundation/NSNotificationCenter+YYAdd.h"; sourceTree = "<group>"; };
 		9FEF2C4A197643ED8DC05A02AE999380 /* WBGDrawTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBGDrawTool.h; path = ZMJImageEditor/Classes/WBGDrawTool.h; sourceTree = "<group>"; };
 		9FFAD18C1AC55F20B98F93ED9291FCD1 /* ZMJImageEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZMJImageEditor.framework; path = ZMJImageEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1506E3197B54ACDFA1E6D7F8C29058E /* WBGImageEditorViewController.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = WBGImageEditorViewController.strings; path = "zh-Hans.lproj/WBGImageEditorViewController.strings"; sourceTree = "<group>"; };
 		A166B37241401C5856208BA6E815DABA /* YYCGUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCGUtilities.h; path = YYCategories/Quartz/YYCGUtilities.h; sourceTree = "<group>"; };
 		A3176D3186FF90BAB6D4FACCDB646CE1 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = Base.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
 		A387BD510697D2F762FB0AA753ACD9F7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
@@ -397,7 +401,6 @@
 		C034106F32777A0AFBF3118AF40ED0B1 /* WBGDrawTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WBGDrawTool.m; path = ZMJImageEditor/Classes/WBGDrawTool.m; sourceTree = "<group>"; };
 		C24554F32C5D3EACFC1A1226D2379C09 /* NSData+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+YYAdd.m"; path = "YYCategories/Foundation/NSData+YYAdd.m"; sourceTree = "<group>"; };
 		C3FC4A3632EEAEA916AB5F1BB57EA1ED /* UIColor+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YYAdd.m"; path = "YYCategories/UIKit/UIColor+YYAdd.m"; sourceTree = "<group>"; };
-		C479CD5E17F0615D0EF9FFFCF4092241 /* WBGImageEditorViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WBGImageEditorViewController.xib; path = ZMJImageEditor/Assets/WBGImageEditorViewController.xib; sourceTree = "<group>"; };
 		C5084AABDBB58AA04B60F7309125B9E6 /* UIApplication+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+YYAdd.h"; path = "YYCategories/UIKit/UIApplication+YYAdd.h"; sourceTree = "<group>"; };
 		C6717065DE58009F55615F99E9568AE8 /* Pods-ZMJImageEditorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMJImageEditorDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C8FC5A92B34A4D8C05567D6B5FC30A42 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = vi.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
@@ -430,7 +433,6 @@
 		ED93413A2F234730ED6AAD1678B6E9F8 /* NSNumber+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+YYAdd.m"; path = "YYCategories/Foundation/NSNumber+YYAdd.m"; sourceTree = "<group>"; };
 		F0B8579018A5A5F80BFF1BFE38B84888 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		F34336427453A9ADD423795CEFA1DCF9 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		F37BCA1207DBC117AC3986E8AE2CE60D /* EditImage.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = EditImage.xcassets; path = ZMJImageEditor/Assets/EditImage.xcassets; sourceTree = "<group>"; };
 		F4698BBB3EA1C06785FB4BF96B94C753 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F48F8FADE3606EE44ED767FF19D8F0FE /* WBGChatMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBGChatMacros.h; path = ZMJImageEditor/Classes/WBGChatMacros.h; sourceTree = "<group>"; };
 		F5DDCB0CA34EE5CF302EDDFD0F0F8C05 /* WBGKeyboardProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBGKeyboardProtocol.h; path = ZMJImageEditor/Classes/WBGKeyboardProtocol.h; sourceTree = "<group>"; };
@@ -569,15 +571,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		2B837E34378CE10F1E80F7469F7A5E40 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F37BCA1207DBC117AC3986E8AE2CE60D /* EditImage.xcassets */,
-				C479CD5E17F0615D0EF9FFFCF4092241 /* WBGImageEditorViewController.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		31072744E8D4B0DAD3378EE9BC28E640 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -587,6 +580,15 @@
 				9FFAD18C1AC55F20B98F93ED9291FCD1 /* ZMJImageEditor.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		413A18FBB4DB0E1E9BED36133D152F02 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E693DFA1AF18B239C7F6917AB890D /* EditImage.xcassets */,
+				F394B9BA11C9EE9BD50538A342BDB5F2 /* WBGImageEditorViewController.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		49934A409D2747D9978AD0AE5A204212 /* no-arc */ = {
@@ -783,7 +785,7 @@
 				98EBC2BD897CEA203AF4853DA6596602 /* WBGTextTool.m */,
 				7BCE5203A48DBEC607FBB37680DD6986 /* WBGTextToolView.h */,
 				33A54C9E792822A02E6BD3D478D898E8 /* WBGTextToolView.m */,
-				2B837E34378CE10F1E80F7469F7A5E40 /* Resources */,
+				413A18FBB4DB0E1E9BED36133D152F02 /* Resources */,
 				E7BAE2464B4C8AB613861C6F90F4D632 /* Support Files */,
 			);
 			name = ZMJImageEditor;
@@ -979,7 +981,7 @@
 				01B97FAA491D6E09DFC1CBEDDEEFE337 /* Sources */,
 				605B5E4DC0E21E3D0C0C9CFA3DCA6F0C /* Frameworks */,
 				A857E6FD41BD6361FDB58A1510E2A590 /* Headers */,
-				10D52B83368472E1F38B4CFFA66EBF38 /* Resources */,
+				8BEA2520473BCF690AB66A0E3880108D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1022,12 +1024,12 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		10D52B83368472E1F38B4CFFA66EBF38 /* Resources */ = {
+		8BEA2520473BCF690AB66A0E3880108D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D88193B5544AB53BFD9D32319253D1AA /* EditImage.xcassets in Resources */,
-				62EF647BF33AD13AA5B5F9383385F06A /* WBGImageEditorViewController.xib in Resources */,
+				2432E9D75F594327C534CFB7F90E8482 /* EditImage.xcassets in Resources */,
+				034E96ED7C0D311A6DA9509DFDDC19F2 /* WBGImageEditorViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1185,6 +1187,17 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		F394B9BA11C9EE9BD50538A342BDB5F2 /* WBGImageEditorViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BC9AC9A8E090D19BEF4EE567D018FDA /* WBGImageEditorViewController.strings */,
+				A1506E3197B54ACDFA1E6D7F8C29058E /* WBGImageEditorViewController.strings */,
+				085F91AD52AB8009CAC71A31CB0883B0 /* WBGImageEditorViewController.xib */,
+			);
+			name = WBGImageEditorViewController.xib;
+			path = ZMJImageEditor/Assets;
+			sourceTree = "<group>";
+		};
 		FAFAB961B9F72FD12E033C6BA5895519 /* TOCropViewControllerLocalizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -27,7 +27,7 @@
         
         UILabel *label = [UILabel new];
         label.textColor = [UIColor redColor];
-        label.font = [UIFont boldSystemFontOfSize:14.f];
+        label.font = [UIFont boldSystemFontOfSize:44.f];
         label.text = @"Tap me :)";
         [label sizeToFit];
         label.center = CGPointMake((NSInteger)self.view.bounds.size.width >> 1, (NSInteger)self.view.bounds.size.height >> 1);

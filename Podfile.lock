@@ -3,18 +3,18 @@ PODS:
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
-  - ZMJImageEditor (0.1.6):
+  - ZMJImageEditor (0.2.3):
     - Masonry (~> 1.0.1)
     - YYCategories (~> 1.0.4)
 
 DEPENDENCIES:
-  - ZMJImageEditor (~> 0.1)
+  - ZMJImageEditor (~> 0.2)
 
 SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
-  ZMJImageEditor: 764e5e11e3149085a53ecadf0b4f4ab7228b03e5
+  ZMJImageEditor: c5b71deccd3dde8e6b858ee3e3f162b15379014f
 
-PODFILE CHECKSUM: 239495a95455168342f7a66f4c455be818526200
+PODFILE CHECKSUM: f4a412ec8de7002f01b06089848e719252e70cea
 
 COCOAPODS: 1.3.0.beta.2
