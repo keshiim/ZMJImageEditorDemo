@@ -130,6 +130,11 @@ NSString * const kColorPanNotificaiton = @"kColorPanNotificaiton";
     self.clipButton.hidden = YES;
     self.paperButton.hidden = YES;
     self.colorPan.hidden = YES;
+    
+    if (self.needHiddenBars) {
+        bottomBarBottom.constant = -49.f;
+        topBarTop.constant = -64.f;
+    }
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -474,6 +479,10 @@ NSString * const kColorPanNotificaiton = @"kColorPanNotificaiton";
     }
 }
 
+- (void)undoAll {
+    [self.drawTool flashPanLines];
+}
+
 
 - (void)editTextAgain {
     //WBGTextTool 钩子调用
@@ -618,24 +627,29 @@ NSString * const kColorPanNotificaiton = @"kColorPanNotificaiton";
 }
 
 - (void)hiddenTopAndBottomBar:(BOOL)isHide animation:(BOOL)animation {
-    if (self.keyboard.isShow) {
-        [self.keyboard dismissWithAnimation:YES];
-        return;
-    }
-    
-    [UIView animateWithDuration:animation ? .25f : 0.f delay:0 usingSpringWithDamping:1 initialSpringVelocity:1 options:isHide ? UIViewAnimationOptionCurveEaseOut : UIViewAnimationOptionCurveEaseIn animations:^{
-        if (isHide) {
-            bottomBarBottom.constant = -49.f;
-            topBarTop.constant = -64.f;
-        } else {
-            bottomBarBottom.constant = 0;
-            topBarTop.constant = 0;
+    if (self.needHiddenBars) {
+        bottomBarBottom.constant = -49.f;
+        topBarTop.constant = -64.f;
+    } else {
+        if (self.keyboard.isShow) {
+            [self.keyboard dismissWithAnimation:YES];
+            return;
         }
-        _barsHiddenStatus = isHide;
-        [self.view layoutIfNeeded];
-    } completion:^(BOOL finished) {
         
-    }];
+        [UIView animateWithDuration:animation ? .25f : 0.f delay:0 usingSpringWithDamping:1 initialSpringVelocity:1 options:isHide ? UIViewAnimationOptionCurveEaseOut : UIViewAnimationOptionCurveEaseIn animations:^{
+            if (isHide) {
+                bottomBarBottom.constant = -49.f;
+                topBarTop.constant = -64.f;
+            } else {
+                bottomBarBottom.constant = 0;
+                topBarTop.constant = 0;
+            }
+            _barsHiddenStatus = isHide;
+            [self.view layoutIfNeeded];
+        } completion:^(BOOL finished) {
+            
+        }];
+    }
 }
 
 - (void)hiddenColorPan:(BOOL)yesOrNot animation:(BOOL)animation {
@@ -659,7 +673,7 @@ NSString * const kColorPanNotificaiton = @"kColorPanNotificaiton";
     if (showHud) {
         //ShowBusyTextIndicatorForView(self.view, @"生成图片中...", nil);
     }
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+    //dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         CGFloat WS = self.imageView.width/ self.drawingView.width;
         CGFloat HS = self.imageView.height/ self.drawingView.height;
         
@@ -704,7 +718,7 @@ NSString * const kColorPanNotificaiton = @"kColorPanNotificaiton";
             clipedCallback(image);
             
         });
-    });
+   // });
 }
 
 + (UIImage *)screenshot:(UIView *)view orientation:(UIDeviceOrientation)orientation usePresentationLayer:(BOOL)usePresentationLayer

@@ -5,6 +5,7 @@ inhibit_all_warnings!
 use_frameworks!
 def shared_pods
     pod 'ZMJImageEditor', '~> 0.2'
+    pod 'ZMJGanttChart', '~> 0.1'
 end
 
 

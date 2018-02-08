@@ -17,6 +17,7 @@
 @property (nonatomic, assign) CGFloat pathWidth;
 //撤销
 - (void)backToLastDraw;
+- (void)flashPanLines;
 - (void)drawLine;
 @end
 

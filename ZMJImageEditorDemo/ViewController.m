@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import <ZMJImageEditor/WBGImageEditor.h>
+#import "FirstViewController.h"
+
 @interface ViewController () <WBGImageEditorDelegate, WBGImageEditorDataSource>
 @property (nonatomic, strong) UIImageView *imageView;
 @end
@@ -43,8 +45,13 @@
     
     UITouch *touch = [touches anyObject];
     if (touch.tapCount == 1) {
-        WBGImageEditor *editor = [[WBGImageEditor alloc] initWithImage:_imageView.image delegate:self dataSource:self];
-        [self presentViewController:editor animated:YES completion:nil];
+        if (!self.presentedViewController) {
+            FirstViewController *vc = [[FirstViewController alloc] init];
+            [self presentViewController:vc animated:YES completion:nil];
+        }
+        
+//        WBGImageEditor *editor = [[WBGImageEditor alloc] initWithImage:_imageView.image delegate:self dataSource:self];
+//        [self presentViewController:editor animated:YES completion:nil];
     }
 }
 

@@ -3,18 +3,21 @@ PODS:
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
+  - ZMJGanttChart (0.1.4)
   - ZMJImageEditor (0.2.3):
     - Masonry (~> 1.0.1)
     - YYCategories (~> 1.0.4)
 
 DEPENDENCIES:
+  - ZMJGanttChart (~> 0.1)
   - ZMJImageEditor (~> 0.2)
 
 SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  ZMJGanttChart: 5e2c8c2e1431954e408b990b8a580e6d03affbf7
   ZMJImageEditor: c5b71deccd3dde8e6b858ee3e3f162b15379014f
 
-PODFILE CHECKSUM: f4a412ec8de7002f01b06089848e719252e70cea
+PODFILE CHECKSUM: 4dafaeb399abfe925cd2139ec1f938936be2dffe
 
-COCOAPODS: 1.3.0.beta.2
+COCOAPODS: 1.4.0

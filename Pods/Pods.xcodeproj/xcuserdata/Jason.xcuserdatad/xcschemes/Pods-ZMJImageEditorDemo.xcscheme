@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "549D2AE70D7FB2409FD52C62F5AE12CA"
+               BlueprintIdentifier = "D8A924D011E9C5915AFA9A15504AAEC5"
                BuildableName = "Pods_ZMJImageEditorDemo.framework"
                BlueprintName = "Pods-ZMJImageEditorDemo"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "549D2AE70D7FB2409FD52C62F5AE12CA"
+            BlueprintIdentifier = "D8A924D011E9C5915AFA9A15504AAEC5"
             BuildableName = "Pods_ZMJImageEditorDemo.framework"
             BlueprintName = "Pods-ZMJImageEditorDemo"
             ReferencedContainer = "container:Pods.xcodeproj">

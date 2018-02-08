@@ -36,6 +36,10 @@ typedef NS_OPTIONS(NSInteger, WBGImageEditorComponent) {
 
 - (void)showInViewController:(UIViewController<WBGImageEditorTransitionDelegate> *)controller withImageView:(UIImageView*)imageView;
 - (void)refreshToolSettings;
+
+- (void)undoAll;
+- (IBAction)sendAction:(UIButton *)sender;
+@property (nonatomic, assign) BOOL needHiddenBars;
 @end
 
 

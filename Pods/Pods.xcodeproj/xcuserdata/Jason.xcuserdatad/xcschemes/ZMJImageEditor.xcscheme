@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'FF56891C86AE74627054E2743F9D972F'
-               BlueprintName = 'ZMJImageEditor'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'ZMJImageEditor.framework'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "671528EA5BD6832857A01B316750B4AE"
+               BlueprintName = "ZMJImageEditor"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "ZMJImageEditor.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -14,6 +14,8 @@
 		96DD6F461EC427B500E0097A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD6F441EC427B500E0097A /* Main.storyboard */; };
 		96DD6F481EC427B500E0097A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DD6F471EC427B500E0097A /* Assets.xcassets */; };
 		96DD6F4B1EC427B500E0097A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD6F491EC427B500E0097A /* LaunchScreen.storyboard */; };
+		96FFA9731FF4E755004F7642 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FFA9711FF4E755004F7642 /* FirstViewController.m */; };
+		96FFA9741FF4E756004F7642 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FFA9721FF4E755004F7642 /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		96DD6F471EC427B500E0097A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96DD6F4A1EC427B500E0097A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96DD6F4C1EC427B500E0097A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FFA9701FF4E755004F7642 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		96FFA9711FF4E755004F7642 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		96FFA9721FF4E755004F7642 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		BB24E40F9E5C03ACB886C418 /* Pods-ZMJImageEditorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMJImageEditorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZMJImageEditorDemo/Pods-ZMJImageEditorDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C2D99F2F45D2D8F10AEE52DF /* Pods-ZMJImageEditorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMJImageEditorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZMJImageEditorDemo/Pods-ZMJImageEditorDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +91,9 @@
 				96DD6F3F1EC427B500E0097A /* AppDelegate.m */,
 				96DD6F411EC427B500E0097A /* ViewController.h */,
 				96DD6F421EC427B500E0097A /* ViewController.m */,
+				96FFA9701FF4E755004F7642 /* FirstViewController.h */,
+				96FFA9711FF4E755004F7642 /* FirstViewController.m */,
+				96FFA9721FF4E755004F7642 /* FirstViewController.xib */,
 				96DD6F441EC427B500E0097A /* Main.storyboard */,
 				96DD6F471EC427B500E0097A /* Assets.xcassets */,
 				96DD6F491EC427B500E0097A /* LaunchScreen.storyboard */,
@@ -168,6 +176,7 @@
 				96DD6F4B1EC427B500E0097A /* LaunchScreen.storyboard in Resources */,
 				96DD6F481EC427B500E0097A /* Assets.xcassets in Resources */,
 				96DD6F461EC427B500E0097A /* Main.storyboard in Resources */,
+				96FFA9741FF4E756004F7642 /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,12 +225,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZMJImageEditorDemo/Pods-ZMJImageEditorDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
+				"${BUILT_PRODUCTS_DIR}/ZMJGanttChart/ZMJGanttChart.framework",
 				"${BUILT_PRODUCTS_DIR}/ZMJImageEditor/ZMJImageEditor.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZMJGanttChart.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZMJImageEditor.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +250,7 @@
 				96DD6F431EC427B500E0097A /* ViewController.m in Sources */,
 				96DD6F401EC427B500E0097A /* AppDelegate.m in Sources */,
 				96DD6F3D1EC427B500E0097A /* main.m in Sources */,
+				96FFA9731FF4E755004F7642 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +413,7 @@
 				96DD6F511EC427B500E0097A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
